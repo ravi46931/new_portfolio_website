@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body{
+    background-color: rgb(244, 241, 255);
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(97, 75, 75);
+}
+
+#desktop-nav{
+    display: flex;
+}
+
+.logo{
+    font-size: 2rem;
+    margin-right: 55px;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+
+.navbar ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 0px;
+    margin-top: 18px;
+    margin-right: -150px;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin-right: 2em;
+    font-size: 22px;
+    font-weight: 600;
+    transition: transform 0.01s ease;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(38, 48, 47);
+}
+
+.navbar ul li:hover {
+    transform: scale(1.1); /* Enlarge the item on hover */
+}
+
+
+nav, .nav-links{
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+#profile .section__pic-container img {
+    border-radius: 50%;
+}
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.section-container {
+    display: flex;
+  }
+
+
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 7.5rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 450px;
+    /* width: 400px; */
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__p2 {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+
+}
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+#social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.icon {
+    cursor:pointer;
+    height: 2rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 9.75rem;
+    border-radius: 2rem;
+
+}
+
+.btn-color-1, 
+.btn-color-2 {
+    border: rgb(53,53,53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+    cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+    background:rgb(53,53,53) ;
+    color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0,0,0);
+}
+
+.btn-color-2{
+    background: none;
+}
+
+.btn-color-2:hover {
+    border: rgb(255,255,255) 0.1rem solid;
+}
+
+.btn-container {
+    gap: 1rem;
+}
